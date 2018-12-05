@@ -50,7 +50,7 @@ func main() {
 			fmt.Printf("[%d] %d + %d = %d\n", i, x, n, y)
 
 		// ascii(45) = '-'
-		} else if op[0] == 45 { // ascii(45) = '-'
+		} else if op[0] == 45 {
 			y = x - n
 			fmt.Printf("[%d] %d - %d = %d\n", i, x, n, y)
 
