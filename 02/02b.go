@@ -33,7 +33,7 @@ func main() {
 	}
 
 	// the meat
-	low := len(ids[0])+1 	// current lowest edit distance
+	low := len(ids[0])+1 		// current lowest edit distance
 	var edit input			// per-iteration edit distance
 	var sol strings			// current solution string, repeat chars removed
 	for i := 0; i < len(ids)-1; i++ { // for each string
